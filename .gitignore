@@ -1,0 +1,7 @@
+HWymHalloWeen.xcodeproj/xcuserdata/
+HWymHalloWeen.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+HWymHalloWeen.xcodeproj/project.xcworkspace/xcuserdata/

@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048ACD48271D4731009ECD98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048ACD47271D4731009ECD98 /* AppDelegate.swift */; };
+		048ACD4A271D4731009ECD98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048ACD49271D4731009ECD98 /* SceneDelegate.swift */; };
+		048ACD4C271D4731009ECD98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048ACD4B271D4731009ECD98 /* ViewController.swift */; };
+		048ACD4F271D4731009ECD98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048ACD4D271D4731009ECD98 /* Main.storyboard */; };
+		048ACD51271D4732009ECD98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048ACD50271D4732009ECD98 /* Assets.xcassets */; };
+		048ACD54271D4732009ECD98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048ACD52271D4732009ECD98 /* LaunchScreen.storyboard */; };
+		296F24CFA3A97C3B60F83644 /* Pods_HWymHalloWeen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF135DCAF6C790571374FCE /* Pods_HWymHalloWeen.framework */; };
+		EB3428AB271D4CD5008EC73E /* HWymMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3428AA271D4CD5008EC73E /* HWymMainVC.swift */; };
+		EB3428AE271D511B008EC73E /* ExtensionTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3428AD271D511B008EC73E /* ExtensionTool.swift */; };
+		EB3428B4271D5167008EC73E /* TESTV.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3428B3271D5167008EC73E /* TESTV.m */; };
+		EB3428B6271D5A1F008EC73E /* HWymSettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3428B5271D5A1F008EC73E /* HWymSettingVC.swift */; };
+		EB3428B8271D5ED2008EC73E /* HWymStoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3428B7271D5ED2008EC73E /* HWymStoreVC.swift */; };
+		EB3428BB271D6078008EC73E /* CoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3428BA271D6078008EC73E /* CoinManager.swift */; };
+		EB3428BD271D61F7008EC73E /* Keychains.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3428BC271D61F7008EC73E /* Keychains.swift */; };
+		EB3428BF271D76D1008EC73E /* HWymEditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3428BE271D76D1008EC73E /* HWymEditVC.swift */; };
+		EB3428C2271E5ADC008EC73E /* HWymStickerBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3428C1271E5ADC008EC73E /* HWymStickerBar.swift */; };
+		EB3428C4271E5ECF008EC73E /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3428C3271E5ECF008EC73E /* Manager.swift */; };
+		EB3428C6271E5FFF008EC73E /* maskSticker.json in Resources */ = {isa = PBXBuildFile; fileRef = EB3428C5271E5FFE008EC73E /* maskSticker.json */; };
+		EB3428C8271E6010008EC73E /* headwearSticker.json in Resources */ = {isa = PBXBuildFile; fileRef = EB3428C7271E6010008EC73E /* headwearSticker.json */; };
+		EB3428CA271E65BD008EC73E /* HWymTextBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3428C9271E65BD008EC73E /* HWymTextBar.swift */; };
+		EB3428CC271E6F29008EC73E /* HWymTextINputV.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3428CB271E6F29008EC73E /* HWymTextINputV.swift */; };
+		EB3428CE271E73BE008EC73E /* HWymUnlockAlerV.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3428CD271E73BE008EC73E /* HWymUnlockAlerV.swift */; };
+		EB3428E3271E76FB008EC73E /* HWymAddonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3428E2271E76FB008EC73E /* HWymAddonManager.swift */; };
+		EB3428E5271E770E008EC73E /* HWymTouchStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3428E4271E770E008EC73E /* HWymTouchStuff.swift */; };
+		EB3428E7271E771E008EC73E /* HWymTextTouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3428E6271E771E008EC73E /* HWymTextTouchView.swift */; };
+		EB3428E9271E772D008EC73E /* HWymStickerTouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3428E8271E772D008EC73E /* HWymStickerTouchView.swift */; };
+		EB3428EB271E7A2E008EC73E /* Creepster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB3428EA271E7A2E008EC73E /* Creepster-Regular.ttf */; };
+		EB3428F0271E7CB6008EC73E /* UIColor+SSToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3428ED271E7CB6008EC73E /* UIColor+SSToolkitAdditions.m */; };
+		EB3428F1271E7CB6008EC73E /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3428EF271E7CB6008EC73E /* UIView+Frame.m */; };
+		EB3428F4271EB12B008EC73E /* FilterDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3428F3271EB12B008EC73E /* FilterDataTool.m */; };
+		EB3428F8271EB15A008EC73E /* PictureProcessTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3428F7271EB15A008EC73E /* PictureProcessTool.m */; };
+		EB3429132720135A008EC73E /* HWTouchStuffViewPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3429122720135A008EC73E /* HWTouchStuffViewPrivate.m */; };
+		EB34291627201602008EC73E /* HWTouchStuffView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB34291527201602008EC73E /* HWTouchStuffView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		048ACD44271D4731009ECD98 /* HWymHalloWeen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWymHalloWeen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		048ACD47271D4731009ECD98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		048ACD49271D4731009ECD98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		048ACD4B271D4731009ECD98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		048ACD4E271D4731009ECD98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		048ACD50271D4732009ECD98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		048ACD53271D4732009ECD98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		048ACD55271D4732009ECD98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BF135DCAF6C790571374FCE /* Pods_HWymHalloWeen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HWymHalloWeen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0AF1AFCD9394EBBA4460B1A /* Pods-HWymHalloWeen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HWymHalloWeen.release.xcconfig"; path = "Target Support Files/Pods-HWymHalloWeen/Pods-HWymHalloWeen.release.xcconfig"; sourceTree = "<group>"; };
+		C730F93AD5EFA71BE8709B7E /* Pods-HWymHalloWeen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HWymHalloWeen.debug.xcconfig"; path = "Target Support Files/Pods-HWymHalloWeen/Pods-HWymHalloWeen.debug.xcconfig"; sourceTree = "<group>"; };
+		EB3428AA271D4CD5008EC73E /* HWymMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWymMainVC.swift; sourceTree = "<group>"; };
+		EB3428AD271D511B008EC73E /* ExtensionTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionTool.swift; sourceTree = "<group>"; };
+		EB3428B1271D5166008EC73E /* HWymHalloWeen-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HWymHalloWeen-Bridging-Header.h"; sourceTree = "<group>"; };
+		EB3428B2271D5167008EC73E /* TESTV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TESTV.h; sourceTree = "<group>"; };
+		EB3428B3271D5167008EC73E /* TESTV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TESTV.m; sourceTree = "<group>"; };
+		EB3428B5271D5A1F008EC73E /* HWymSettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWymSettingVC.swift; sourceTree = "<group>"; };
+		EB3428B7271D5ED2008EC73E /* HWymStoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWymStoreVC.swift; sourceTree = "<group>"; };
+		EB3428BA271D6078008EC73E /* CoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinManager.swift; sourceTree = "<group>"; };
+		EB3428BC271D61F7008EC73E /* Keychains.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychains.swift; sourceTree = "<group>"; };
+		EB3428BE271D76D1008EC73E /* HWymEditVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWymEditVC.swift; sourceTree = "<group>"; };
+		EB3428C1271E5ADC008EC73E /* HWymStickerBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWymStickerBar.swift; sourceTree = "<group>"; };
+		EB3428C3271E5ECF008EC73E /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		EB3428C5271E5FFE008EC73E /* maskSticker.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = maskSticker.json; sourceTree = "<group>"; };
+		EB3428C7271E6010008EC73E /* headwearSticker.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = headwearSticker.json; sourceTree = "<group>"; };
+		EB3428C9271E65BD008EC73E /* HWymTextBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWymTextBar.swift; sourceTree = "<group>"; };
+		EB3428CB271E6F29008EC73E /* HWymTextINputV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWymTextINputV.swift; sourceTree = "<group>"; };
+		EB3428CD271E73BE008EC73E /* HWymUnlockAlerV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWymUnlockAlerV.swift; sourceTree = "<group>"; };
+		EB3428E2271E76FB008EC73E /* HWymAddonManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWymAddonManager.swift; sourceTree = "<group>"; };
+		EB3428E4271E770E008EC73E /* HWymTouchStuff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWymTouchStuff.swift; sourceTree = "<group>"; };
+		EB3428E6271E771E008EC73E /* HWymTextTouchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWymTextTouchView.swift; sourceTree = "<group>"; };
+		EB3428E8271E772D008EC73E /* HWymStickerTouchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWymStickerTouchView.swift; sourceTree = "<group>"; };
+		EB3428EA271E7A2E008EC73E /* Creepster-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Creepster-Regular.ttf"; sourceTree = "<group>"; };
+		EB3428EC271E7CB5008EC73E /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		EB3428ED271E7CB6008EC73E /* UIColor+SSToolkitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SSToolkitAdditions.m"; sourceTree = "<group>"; };
+		EB3428EE271E7CB6008EC73E /* UIColor+SSToolkitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SSToolkitAdditions.h"; sourceTree = "<group>"; };
+		EB3428EF271E7CB6008EC73E /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		EB3428F2271EB12B008EC73E /* FilterDataTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilterDataTool.h; sourceTree = "<group>"; };
+		EB3428F3271EB12B008EC73E /* FilterDataTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilterDataTool.m; sourceTree = "<group>"; };
+		EB3428F6271EB15A008EC73E /* PictureProcessTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureProcessTool.h; sourceTree = "<group>"; };
+		EB3428F7271EB15A008EC73E /* PictureProcessTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureProcessTool.m; sourceTree = "<group>"; };
+		EB3428F9271EB175008EC73E /* FilterColorMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilterColorMatrix.h; sourceTree = "<group>"; };
+		EB3428FA271EC805008EC73E /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
+		EB3429112720135A008EC73E /* HWTouchStuffViewPrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWTouchStuffViewPrivate.h; sourceTree = "<group>"; };
+		EB3429122720135A008EC73E /* HWTouchStuffViewPrivate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWTouchStuffViewPrivate.m; sourceTree = "<group>"; };
+		EB34291427201602008EC73E /* HWTouchStuffView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWTouchStuffView.h; sourceTree = "<group>"; };
+		EB34291527201602008EC73E /* HWTouchStuffView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWTouchStuffView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		048ACD41271D4731009ECD98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				296F24CFA3A97C3B60F83644 /* Pods_HWymHalloWeen.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048ACD3B271D4731009ECD98 = {
+			isa = PBXGroup;
+			children = (
+				048ACD46271D4731009ECD98 /* HWymHalloWeen */,
+				048ACD45271D4731009ECD98 /* Products */,
+				43B7F974CE6AC67DEB60A33A /* Pods */,
+				BA55EC190EAE28AB5928F356 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		048ACD45271D4731009ECD98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				048ACD44271D4731009ECD98 /* HWymHalloWeen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		048ACD46271D4731009ECD98 /* HWymHalloWeen */ = {
+			isa = PBXGroup;
+			children = (
+				EB3428E1271E76B1008EC73E /* StickerManager */,
+				EB3428CF271E7690008EC73E /* OC */,
+				EB3428B9271D606A008EC73E /* Manager */,
+				EB3428AC271D50FD008EC73E /* Tool */,
+				EB3428A9271D4CBC008EC73E /* MainV */,
+				EB3428A8271D4C9C008EC73E /* Rot */,
+			);
+			path = HWymHalloWeen;
+			sourceTree = "<group>";
+		};
+		43B7F974CE6AC67DEB60A33A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C730F93AD5EFA71BE8709B7E /* Pods-HWymHalloWeen.debug.xcconfig */,
+				A0AF1AFCD9394EBBA4460B1A /* Pods-HWymHalloWeen.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BA55EC190EAE28AB5928F356 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BF135DCAF6C790571374FCE /* Pods_HWymHalloWeen.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB3428A8271D4C9C008EC73E /* Rot */ = {
+			isa = PBXGroup;
+			children = (
+				048ACD47271D4731009ECD98 /* AppDelegate.swift */,
+				048ACD49271D4731009ECD98 /* SceneDelegate.swift */,
+				048ACD4B271D4731009ECD98 /* ViewController.swift */,
+				048ACD4D271D4731009ECD98 /* Main.storyboard */,
+				048ACD50271D4732009ECD98 /* Assets.xcassets */,
+				048ACD52271D4732009ECD98 /* LaunchScreen.storyboard */,
+				048ACD55271D4732009ECD98 /* Info.plist */,
+				EB3428B2271D5167008EC73E /* TESTV.h */,
+				EB3428B3271D5167008EC73E /* TESTV.m */,
+				EB3428B1271D5166008EC73E /* HWymHalloWeen-Bridging-Header.h */,
+				EB3428EA271E7A2E008EC73E /* Creepster-Regular.ttf */,
+				EB3428FA271EC805008EC73E /* Configuration.storekit */,
+			);
+			name = Rot;
+			sourceTree = "<group>";
+		};
+		EB3428A9271D4CBC008EC73E /* MainV */ = {
+			isa = PBXGroup;
+			children = (
+				EB3428AA271D4CD5008EC73E /* HWymMainVC.swift */,
+				EB3428B5271D5A1F008EC73E /* HWymSettingVC.swift */,
+				EB3428B7271D5ED2008EC73E /* HWymStoreVC.swift */,
+				EB3428BE271D76D1008EC73E /* HWymEditVC.swift */,
+				EB3428C0271E5AC8008EC73E /* View */,
+			);
+			path = MainV;
+			sourceTree = "<group>";
+		};
+		EB3428AC271D50FD008EC73E /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				EB3428AD271D511B008EC73E /* ExtensionTool.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		EB3428B9271D606A008EC73E /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				EB3428BA271D6078008EC73E /* CoinManager.swift */,
+				EB3428BC271D61F7008EC73E /* Keychains.swift */,
+				EB3428C3271E5ECF008EC73E /* Manager.swift */,
+				EB3428C5271E5FFE008EC73E /* maskSticker.json */,
+				EB3428C7271E6010008EC73E /* headwearSticker.json */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		EB3428C0271E5AC8008EC73E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EB3428C1271E5ADC008EC73E /* HWymStickerBar.swift */,
+				EB3428C9271E65BD008EC73E /* HWymTextBar.swift */,
+				EB3428CB271E6F29008EC73E /* HWymTextINputV.swift */,
+				EB3428CD271E73BE008EC73E /* HWymUnlockAlerV.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EB3428CF271E7690008EC73E /* OC */ = {
+			isa = PBXGroup;
+			children = (
+				EB3428EE271E7CB6008EC73E /* UIColor+SSToolkitAdditions.h */,
+				EB3428ED271E7CB6008EC73E /* UIColor+SSToolkitAdditions.m */,
+				EB3428EC271E7CB5008EC73E /* UIView+Frame.h */,
+				EB3428EF271E7CB6008EC73E /* UIView+Frame.m */,
+				EB3428F5271EB147008EC73E /* FilterManager */,
+				EB3428D0271E7696008EC73E /* TouchView */,
+			);
+			path = OC;
+			sourceTree = "<group>";
+		};
+		EB3428D0271E7696008EC73E /* TouchView */ = {
+			isa = PBXGroup;
+			children = (
+				EB3429112720135A008EC73E /* HWTouchStuffViewPrivate.h */,
+				EB3429122720135A008EC73E /* HWTouchStuffViewPrivate.m */,
+				EB34291427201602008EC73E /* HWTouchStuffView.h */,
+				EB34291527201602008EC73E /* HWTouchStuffView.m */,
+			);
+			path = TouchView;
+			sourceTree = "<group>";
+		};
+		EB3428E1271E76B1008EC73E /* StickerManager */ = {
+			isa = PBXGroup;
+			children = (
+				EB3428E2271E76FB008EC73E /* HWymAddonManager.swift */,
+				EB3428E4271E770E008EC73E /* HWymTouchStuff.swift */,
+				EB3428E6271E771E008EC73E /* HWymTextTouchView.swift */,
+				EB3428E8271E772D008EC73E /* HWymStickerTouchView.swift */,
+			);
+			path = StickerManager;
+			sourceTree = "<group>";
+		};
+		EB3428F5271EB147008EC73E /* FilterManager */ = {
+			isa = PBXGroup;
+			children = (
+				EB3428F2271EB12B008EC73E /* FilterDataTool.h */,
+				EB3428F3271EB12B008EC73E /* FilterDataTool.m */,
+				EB3428F6271EB15A008EC73E /* PictureProcessTool.h */,
+				EB3428F7271EB15A008EC73E /* PictureProcessTool.m */,
+				EB3428F9271EB175008EC73E /* FilterColorMatrix.h */,
+			);
+			path = FilterManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		048ACD43271D4731009ECD98 /* HWymHalloWeen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048ACD6E271D4732009ECD98 /* Build configuration list for PBXNativeTarget "HWymHalloWeen" */;
+			buildPhases = (
+				7E0A212D7FBB44CCEF1E1330 /* [CP] Check Pods Manifest.lock */,
+				048ACD40271D4731009ECD98 /* Sources */,
+				048ACD41271D4731009ECD98 /* Frameworks */,
+				048ACD42271D4731009ECD98 /* Resources */,
+				BAAE567F53CF996784ED69E2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HWymHalloWeen;
+			productName = HWymHalloWeen;
+			productReference = 048ACD44271D4731009ECD98 /* HWymHalloWeen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		048ACD3C271D4731009ECD98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					048ACD43271D4731009ECD98 = {
+						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1300;
+					};
+				};
+			};
+			buildConfigurationList = 048ACD3F271D4731009ECD98 /* Build configuration list for PBXProject "HWymHalloWeen" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 048ACD3B271D4731009ECD98;
+			productRefGroup = 048ACD45271D4731009ECD98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				048ACD43271D4731009ECD98 /* HWymHalloWeen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		048ACD42271D4731009ECD98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048ACD54271D4732009ECD98 /* LaunchScreen.storyboard in Resources */,
+				EB3428C8271E6010008EC73E /* headwearSticker.json in Resources */,
+				EB3428C6271E5FFF008EC73E /* maskSticker.json in Resources */,
+				048ACD51271D4732009ECD98 /* Assets.xcassets in Resources */,
+				048ACD4F271D4731009ECD98 /* Main.storyboard in Resources */,
+				EB3428EB271E7A2E008EC73E /* Creepster-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E0A212D7FBB44CCEF1E1330 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HWymHalloWeen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAAE567F53CF996784ED69E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HWymHalloWeen/Pods-HWymHalloWeen-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HWymHalloWeen/Pods-HWymHalloWeen-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HWymHalloWeen/Pods-HWymHalloWeen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		048ACD40271D4731009ECD98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB3428B4271D5167008EC73E /* TESTV.m in Sources */,
+				EB3428BF271D76D1008EC73E /* HWymEditVC.swift in Sources */,
+				EB3428C2271E5ADC008EC73E /* HWymStickerBar.swift in Sources */,
+				048ACD4C271D4731009ECD98 /* ViewController.swift in Sources */,
+				EB3428CC271E6F29008EC73E /* HWymTextINputV.swift in Sources */,
+				048ACD48271D4731009ECD98 /* AppDelegate.swift in Sources */,
+				EB3428E9271E772D008EC73E /* HWymStickerTouchView.swift in Sources */,
+				EB34291627201602008EC73E /* HWTouchStuffView.m in Sources */,
+				EB3428AE271D511B008EC73E /* ExtensionTool.swift in Sources */,
+				EB3428AB271D4CD5008EC73E /* HWymMainVC.swift in Sources */,
+				EB3428E5271E770E008EC73E /* HWymTouchStuff.swift in Sources */,
+				EB3428E7271E771E008EC73E /* HWymTextTouchView.swift in Sources */,
+				EB3428C4271E5ECF008EC73E /* Manager.swift in Sources */,
+				048ACD4A271D4731009ECD98 /* SceneDelegate.swift in Sources */,
+				EB3428CA271E65BD008EC73E /* HWymTextBar.swift in Sources */,
+				EB3429132720135A008EC73E /* HWTouchStuffViewPrivate.m in Sources */,
+				EB3428CE271E73BE008EC73E /* HWymUnlockAlerV.swift in Sources */,
+				EB3428B6271D5A1F008EC73E /* HWymSettingVC.swift in Sources */,
+				EB3428F8271EB15A008EC73E /* PictureProcessTool.m in Sources */,
+				EB3428F0271E7CB6008EC73E /* UIColor+SSToolkitAdditions.m in Sources */,
+				EB3428F4271EB12B008EC73E /* FilterDataTool.m in Sources */,
+				EB3428F1271E7CB6008EC73E /* UIView+Frame.m in Sources */,
+				EB3428B8271D5ED2008EC73E /* HWymStoreVC.swift in Sources */,
+				EB3428BB271D6078008EC73E /* CoinManager.swift in Sources */,
+				EB3428BD271D61F7008EC73E /* Keychains.swift in Sources */,
+				EB3428E3271E76FB008EC73E /* HWymAddonManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		048ACD4D271D4731009ECD98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048ACD4E271D4731009ECD98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		048ACD52271D4732009ECD98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048ACD53271D4732009ECD98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		048ACD6C271D4732009ECD98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		048ACD6D271D4732009ECD98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		048ACD6F271D4732009ECD98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C730F93AD5EFA71BE8709B7E /* Pods-HWymHalloWeen.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0.0;
+				DEVELOPMENT_TEAM = 598UKLP25U;
+				INFOPLIST_FILE = HWymHalloWeen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinyu.test.888888;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HWymHalloWeen/HWymHalloWeen-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		048ACD70271D4732009ECD98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0AF1AFCD9394EBBA4460B1A /* Pods-HWymHalloWeen.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0.0;
+				DEVELOPMENT_TEAM = 598UKLP25U;
+				INFOPLIST_FILE = HWymHalloWeen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinyu.test.888888;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HWymHalloWeen/HWymHalloWeen-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		048ACD3F271D4731009ECD98 /* Build configuration list for PBXProject "HWymHalloWeen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048ACD6C271D4732009ECD98 /* Debug */,
+				048ACD6D271D4732009ECD98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048ACD6E271D4732009ECD98 /* Build configuration list for PBXNativeTarget "HWymHalloWeen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048ACD6F271D4732009ECD98 /* Debug */,
+				048ACD70271D4732009ECD98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 048ACD3C271D4731009ECD98 /* Project object */;
+}

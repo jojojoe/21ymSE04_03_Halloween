@@ -16,6 +16,19 @@ target 'HWymHalloWeen' do
   pod 'Alamofire'
   pod 'SwiftyStoreKit'
   
+  
+  
+  pod 'AppsFlyerFramework'
+  pod 'Defaults'
+  pod 'CryptoSwift'
+  pod 'Kingfisher'
+  pod 'SwiftyJSON'
+  pod 'RxRelay'
+  pod 'RxCocoa'
+  pod 'Toast'
+  pod 'Adjust'
+  
+  
   pod 'LookinServer', :configurations => ['Debug']
   
 end

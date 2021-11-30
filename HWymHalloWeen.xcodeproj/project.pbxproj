@@ -40,6 +40,48 @@
 		EB3428F8271EB15A008EC73E /* PictureProcessTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3428F7271EB15A008EC73E /* PictureProcessTool.m */; };
 		EB3429132720135A008EC73E /* HWTouchStuffViewPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3429122720135A008EC73E /* HWTouchStuffViewPrivate.m */; };
 		EB34291627201602008EC73E /* HWTouchStuffView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB34291527201602008EC73E /* HWTouchStuffView.m */; };
+		EBE04245273E1D6E00F2F3C3 /* HightLigtingUserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE04217273E1D6A00F2F3C3 /* HightLigtingUserManager.swift */; };
+		EBE04246273E1D6E00F2F3C3 /* HightLigtingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE04218273E1D6A00F2F3C3 /* HightLigtingHelper.swift */; };
+		EBE04247273E1D6E00F2F3C3 /* HightLightingPriceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE04219273E1D6A00F2F3C3 /* HightLightingPriceManager.swift */; };
+		EBE04248273E1D6E00F2F3C3 /* DataEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE0421A273E1D6A00F2F3C3 /* DataEncoding.swift */; };
+		EBE04249273E1D6E00F2F3C3 /* ASAManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE0421B273E1D6A00F2F3C3 /* ASAManage.swift */; };
+		EBE0424A273E1D6E00F2F3C3 /* ExchangeManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE0421C273E1D6A00F2F3C3 /* ExchangeManage.swift */; };
+		EBE0424B273E1D6E00F2F3C3 /* AdjustConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = EBE0421D273E1D6A00F2F3C3 /* AdjustConfig.json */; };
+		EBE0424C273E1D6E00F2F3C3 /* HighLightingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE0421E273E1D6A00F2F3C3 /* HighLightingViewController.swift */; };
+		EBE0424D273E1D6E00F2F3C3 /* HightLightingExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE0421F273E1D6A00F2F3C3 /* HightLightingExtension.swift */; };
+		EBE0424E273E1D6E00F2F3C3 /* AFlyerLibManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE04220273E1D6A00F2F3C3 /* AFlyerLibManage.swift */; };
+		EBE0424F273E1D6E00F2F3C3 /* InnLiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE04223273E1D6C00F2F3C3 /* InnLiHandler.swift */; };
+		EBE04250273E1D6E00F2F3C3 /* Untitled.html in Resources */ = {isa = PBXBuildFile; fileRef = EBE04224273E1D6C00F2F3C3 /* Untitled.html */; };
+		EBE04251273E1D6E00F2F3C3 /* InnTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE04225273E1D6C00F2F3C3 /* InnTextView.swift */; };
+		EBE04252273E1D6E00F2F3C3 /* InnTwoFactorLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE04226273E1D6C00F2F3C3 /* InnTwoFactorLoginView.swift */; };
+		EBE04253273E1D6E00F2F3C3 /* VC+Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE04228273E1D6C00F2F3C3 /* VC+Route.swift */; };
+		EBE04254273E1D6E00F2F3C3 /* SwiftyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE04229273E1D6C00F2F3C3 /* SwiftyTimer.swift */; };
+		EBE04255273E1D6E00F2F3C3 /* Foundation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE0422A273E1D6C00F2F3C3 /* Foundation+Extension.swift */; };
+		EBE04256273E1D6E00F2F3C3 /* UIKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE0422B273E1D6C00F2F3C3 /* UIKitExtension.swift */; };
+		EBE04257273E1D6E00F2F3C3 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE0422C273E1D6C00F2F3C3 /* StringExtension.swift */; };
+		EBE04258273E1D6E00F2F3C3 /* loding2.webp in Resources */ = {isa = PBXBuildFile; fileRef = EBE0422D273E1D6C00F2F3C3 /* loding2.webp */; };
+		EBE04259273E1D6E00F2F3C3 /* InnLiChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE0422E273E1D6C00F2F3C3 /* InnLiChallengeView.swift */; };
+		EBE0425A273E1D6E00F2F3C3 /* InnLiVerifyCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE0422F273E1D6C00F2F3C3 /* InnLiVerifyCodeView.swift */; };
+		EBE0425B273E1D6E00F2F3C3 /* InnRequestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE04231273E1D6C00F2F3C3 /* InnRequestHelper.swift */; };
+		EBE0425C273E1D6E00F2F3C3 /* Loding1.gif in Resources */ = {isa = PBXBuildFile; fileRef = EBE04232273E1D6C00F2F3C3 /* Loding1.gif */; };
+		EBE0425D273E1D6E00F2F3C3 /* InnNWLiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE04233273E1D6C00F2F3C3 /* InnNWLiViewController.swift */; };
+		EBE0425E273E1D6E00F2F3C3 /* ic_a_c@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE04235273E1D6C00F2F3C3 /* ic_a_c@3x.png */; };
+		EBE0425F273E1D6E00F2F3C3 /* login.html in Resources */ = {isa = PBXBuildFile; fileRef = EBE04236273E1D6C00F2F3C3 /* login.html */; };
+		EBE04260273E1D6E00F2F3C3 /* ic_a_c@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE04237273E1D6C00F2F3C3 /* ic_a_c@2x.png */; };
+		EBE04261273E1D6E00F2F3C3 /* log_in_close_ic@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE04238273E1D6C00F2F3C3 /* log_in_close_ic@3x.png */; };
+		EBE04262273E1D6E00F2F3C3 /* ic_c_s@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE04239273E1D6C00F2F3C3 /* ic_c_s@3x.png */; };
+		EBE04263273E1D6E00F2F3C3 /* ic_c_us@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE0423A273E1D6C00F2F3C3 /* ic_c_us@3x.png */; };
+		EBE04264273E1D6E00F2F3C3 /* dialog-main.css in Resources */ = {isa = PBXBuildFile; fileRef = EBE0423B273E1D6C00F2F3C3 /* dialog-main.css */; };
+		EBE04265273E1D6E00F2F3C3 /* ic_c_us@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE0423C273E1D6C00F2F3C3 /* ic_c_us@2x.png */; };
+		EBE04266273E1D6E00F2F3C3 /* InnLiSubviews.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBE0423D273E1D6C00F2F3C3 /* InnLiSubviews.xib */; };
+		EBE04267273E1D6E00F2F3C3 /* ic_c_s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE0423E273E1D6C00F2F3C3 /* ic_c_s@2x.png */; };
+		EBE04268273E1D6E00F2F3C3 /* log_in_close_ic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE0423F273E1D6C00F2F3C3 /* log_in_close_ic@2x.png */; };
+		EBE04269273E1D6E00F2F3C3 /* f000029293.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE04240273E1D6C00F2F3C3 /* f000029293.png */; };
+		EBE0426A273E1D6E00F2F3C3 /* detail.html in Resources */ = {isa = PBXBuildFile; fileRef = EBE04241273E1D6C00F2F3C3 /* detail.html */; };
+		EBE0426B273E1D6E00F2F3C3 /* ic_c_c@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE04242273E1D6C00F2F3C3 /* ic_c_c@2x.png */; };
+		EBE0426C273E1D6E00F2F3C3 /* ic_c_c@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE04243273E1D6C00F2F3C3 /* ic_c_c@3x.png */; };
+		EBE0426D273E1D6E00F2F3C3 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE04244273E1D6C00F2F3C3 /* LoadingView.swift */; };
+		EBE0426F273E207200F2F3C3 /* HWyPurchaseL.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE0426E273E207200F2F3C3 /* HWyPurchaseL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +132,48 @@
 		EB3429122720135A008EC73E /* HWTouchStuffViewPrivate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWTouchStuffViewPrivate.m; sourceTree = "<group>"; };
 		EB34291427201602008EC73E /* HWTouchStuffView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWTouchStuffView.h; sourceTree = "<group>"; };
 		EB34291527201602008EC73E /* HWTouchStuffView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWTouchStuffView.m; sourceTree = "<group>"; };
+		EBE04217273E1D6A00F2F3C3 /* HightLigtingUserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HightLigtingUserManager.swift; sourceTree = "<group>"; };
+		EBE04218273E1D6A00F2F3C3 /* HightLigtingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HightLigtingHelper.swift; sourceTree = "<group>"; };
+		EBE04219273E1D6A00F2F3C3 /* HightLightingPriceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HightLightingPriceManager.swift; sourceTree = "<group>"; };
+		EBE0421A273E1D6A00F2F3C3 /* DataEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataEncoding.swift; sourceTree = "<group>"; };
+		EBE0421B273E1D6A00F2F3C3 /* ASAManage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASAManage.swift; sourceTree = "<group>"; };
+		EBE0421C273E1D6A00F2F3C3 /* ExchangeManage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExchangeManage.swift; sourceTree = "<group>"; };
+		EBE0421D273E1D6A00F2F3C3 /* AdjustConfig.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AdjustConfig.json; sourceTree = "<group>"; };
+		EBE0421E273E1D6A00F2F3C3 /* HighLightingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighLightingViewController.swift; sourceTree = "<group>"; };
+		EBE0421F273E1D6A00F2F3C3 /* HightLightingExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HightLightingExtension.swift; sourceTree = "<group>"; };
+		EBE04220273E1D6A00F2F3C3 /* AFlyerLibManage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFlyerLibManage.swift; sourceTree = "<group>"; };
+		EBE04223273E1D6C00F2F3C3 /* InnLiHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InnLiHandler.swift; sourceTree = "<group>"; };
+		EBE04224273E1D6C00F2F3C3 /* Untitled.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Untitled.html; sourceTree = "<group>"; };
+		EBE04225273E1D6C00F2F3C3 /* InnTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InnTextView.swift; sourceTree = "<group>"; };
+		EBE04226273E1D6C00F2F3C3 /* InnTwoFactorLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InnTwoFactorLoginView.swift; sourceTree = "<group>"; };
+		EBE04228273E1D6C00F2F3C3 /* VC+Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VC+Route.swift"; sourceTree = "<group>"; };
+		EBE04229273E1D6C00F2F3C3 /* SwiftyTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyTimer.swift; sourceTree = "<group>"; };
+		EBE0422A273E1D6C00F2F3C3 /* Foundation+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Foundation+Extension.swift"; sourceTree = "<group>"; };
+		EBE0422B273E1D6C00F2F3C3 /* UIKitExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitExtension.swift; sourceTree = "<group>"; };
+		EBE0422C273E1D6C00F2F3C3 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		EBE0422D273E1D6C00F2F3C3 /* loding2.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = loding2.webp; sourceTree = "<group>"; };
+		EBE0422E273E1D6C00F2F3C3 /* InnLiChallengeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InnLiChallengeView.swift; sourceTree = "<group>"; };
+		EBE0422F273E1D6C00F2F3C3 /* InnLiVerifyCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InnLiVerifyCodeView.swift; sourceTree = "<group>"; };
+		EBE04231273E1D6C00F2F3C3 /* InnRequestHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InnRequestHelper.swift; sourceTree = "<group>"; };
+		EBE04232273E1D6C00F2F3C3 /* Loding1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Loding1.gif; sourceTree = "<group>"; };
+		EBE04233273E1D6C00F2F3C3 /* InnNWLiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InnNWLiViewController.swift; sourceTree = "<group>"; };
+		EBE04235273E1D6C00F2F3C3 /* ic_a_c@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_a_c@3x.png"; sourceTree = "<group>"; };
+		EBE04236273E1D6C00F2F3C3 /* login.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = login.html; sourceTree = "<group>"; };
+		EBE04237273E1D6C00F2F3C3 /* ic_a_c@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_a_c@2x.png"; sourceTree = "<group>"; };
+		EBE04238273E1D6C00F2F3C3 /* log_in_close_ic@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "log_in_close_ic@3x.png"; sourceTree = "<group>"; };
+		EBE04239273E1D6C00F2F3C3 /* ic_c_s@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_c_s@3x.png"; sourceTree = "<group>"; };
+		EBE0423A273E1D6C00F2F3C3 /* ic_c_us@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_c_us@3x.png"; sourceTree = "<group>"; };
+		EBE0423B273E1D6C00F2F3C3 /* dialog-main.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "dialog-main.css"; sourceTree = "<group>"; };
+		EBE0423C273E1D6C00F2F3C3 /* ic_c_us@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_c_us@2x.png"; sourceTree = "<group>"; };
+		EBE0423D273E1D6C00F2F3C3 /* InnLiSubviews.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InnLiSubviews.xib; sourceTree = "<group>"; };
+		EBE0423E273E1D6C00F2F3C3 /* ic_c_s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_c_s@2x.png"; sourceTree = "<group>"; };
+		EBE0423F273E1D6C00F2F3C3 /* log_in_close_ic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "log_in_close_ic@2x.png"; sourceTree = "<group>"; };
+		EBE04240273E1D6C00F2F3C3 /* f000029293.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = f000029293.png; sourceTree = "<group>"; };
+		EBE04241273E1D6C00F2F3C3 /* detail.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = detail.html; sourceTree = "<group>"; };
+		EBE04242273E1D6C00F2F3C3 /* ic_c_c@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_c_c@2x.png"; sourceTree = "<group>"; };
+		EBE04243273E1D6C00F2F3C3 /* ic_c_c@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_c_c@3x.png"; sourceTree = "<group>"; };
+		EBE04244273E1D6C00F2F3C3 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		EBE0426E273E207200F2F3C3 /* HWyPurchaseL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWyPurchaseL.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +209,8 @@
 		048ACD46271D4731009ECD98 /* HWymHalloWeen */ = {
 			isa = PBXGroup;
 			children = (
+				EBE04216273E1D6A00F2F3C3 /* HighLightingEx */,
+				EBE04221273E1D6C00F2F3C3 /* InnLi */,
 				EB3428E1271E76B1008EC73E /* StickerManager */,
 				EB3428CF271E7690008EC73E /* OC */,
 				EB3428B9271D606A008EC73E /* Manager */,
@@ -195,6 +281,7 @@
 			isa = PBXGroup;
 			children = (
 				EB3428BA271D6078008EC73E /* CoinManager.swift */,
+				EBE0426E273E207200F2F3C3 /* HWyPurchaseL.swift */,
 				EB3428BC271D61F7008EC73E /* Keychains.swift */,
 				EB3428C3271E5ECF008EC73E /* Manager.swift */,
 				EB3428C5271E5FFE008EC73E /* maskSticker.json */,
@@ -261,6 +348,93 @@
 			path = FilterManager;
 			sourceTree = "<group>";
 		};
+		EBE04216273E1D6A00F2F3C3 /* HighLightingEx */ = {
+			isa = PBXGroup;
+			children = (
+				EBE04217273E1D6A00F2F3C3 /* HightLigtingUserManager.swift */,
+				EBE04218273E1D6A00F2F3C3 /* HightLigtingHelper.swift */,
+				EBE04219273E1D6A00F2F3C3 /* HightLightingPriceManager.swift */,
+				EBE0421A273E1D6A00F2F3C3 /* DataEncoding.swift */,
+				EBE0421B273E1D6A00F2F3C3 /* ASAManage.swift */,
+				EBE0421C273E1D6A00F2F3C3 /* ExchangeManage.swift */,
+				EBE0421D273E1D6A00F2F3C3 /* AdjustConfig.json */,
+				EBE0421E273E1D6A00F2F3C3 /* HighLightingViewController.swift */,
+				EBE0421F273E1D6A00F2F3C3 /* HightLightingExtension.swift */,
+				EBE04220273E1D6A00F2F3C3 /* AFlyerLibManage.swift */,
+			);
+			path = HighLightingEx;
+			sourceTree = "<group>";
+		};
+		EBE04221273E1D6C00F2F3C3 /* InnLi */ = {
+			isa = PBXGroup;
+			children = (
+				EBE04222273E1D6C00F2F3C3 /* Handler */,
+				EBE04224273E1D6C00F2F3C3 /* Untitled.html */,
+				EBE04225273E1D6C00F2F3C3 /* InnTextView.swift */,
+				EBE04226273E1D6C00F2F3C3 /* InnTwoFactorLoginView.swift */,
+				EBE04227273E1D6C00F2F3C3 /* Extenison */,
+				EBE0422D273E1D6C00F2F3C3 /* loding2.webp */,
+				EBE0422E273E1D6C00F2F3C3 /* InnLiChallengeView.swift */,
+				EBE0422F273E1D6C00F2F3C3 /* InnLiVerifyCodeView.swift */,
+				EBE04230273E1D6C00F2F3C3 /* Request */,
+				EBE04232273E1D6C00F2F3C3 /* Loding1.gif */,
+				EBE04233273E1D6C00F2F3C3 /* InnNWLiViewController.swift */,
+				EBE04234273E1D6C00F2F3C3 /* Resource */,
+				EBE04244273E1D6C00F2F3C3 /* LoadingView.swift */,
+			);
+			path = InnLi;
+			sourceTree = "<group>";
+		};
+		EBE04222273E1D6C00F2F3C3 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				EBE04223273E1D6C00F2F3C3 /* InnLiHandler.swift */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		EBE04227273E1D6C00F2F3C3 /* Extenison */ = {
+			isa = PBXGroup;
+			children = (
+				EBE04228273E1D6C00F2F3C3 /* VC+Route.swift */,
+				EBE04229273E1D6C00F2F3C3 /* SwiftyTimer.swift */,
+				EBE0422A273E1D6C00F2F3C3 /* Foundation+Extension.swift */,
+				EBE0422B273E1D6C00F2F3C3 /* UIKitExtension.swift */,
+				EBE0422C273E1D6C00F2F3C3 /* StringExtension.swift */,
+			);
+			path = Extenison;
+			sourceTree = "<group>";
+		};
+		EBE04230273E1D6C00F2F3C3 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				EBE04231273E1D6C00F2F3C3 /* InnRequestHelper.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		EBE04234273E1D6C00F2F3C3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				EBE04235273E1D6C00F2F3C3 /* ic_a_c@3x.png */,
+				EBE04236273E1D6C00F2F3C3 /* login.html */,
+				EBE04237273E1D6C00F2F3C3 /* ic_a_c@2x.png */,
+				EBE04238273E1D6C00F2F3C3 /* log_in_close_ic@3x.png */,
+				EBE04239273E1D6C00F2F3C3 /* ic_c_s@3x.png */,
+				EBE0423A273E1D6C00F2F3C3 /* ic_c_us@3x.png */,
+				EBE0423B273E1D6C00F2F3C3 /* dialog-main.css */,
+				EBE0423C273E1D6C00F2F3C3 /* ic_c_us@2x.png */,
+				EBE0423D273E1D6C00F2F3C3 /* InnLiSubviews.xib */,
+				EBE0423E273E1D6C00F2F3C3 /* ic_c_s@2x.png */,
+				EBE0423F273E1D6C00F2F3C3 /* log_in_close_ic@2x.png */,
+				EBE04240273E1D6C00F2F3C3 /* f000029293.png */,
+				EBE04241273E1D6C00F2F3C3 /* detail.html */,
+				EBE04242273E1D6C00F2F3C3 /* ic_c_c@2x.png */,
+				EBE04243273E1D6C00F2F3C3 /* ic_c_c@3x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -321,12 +495,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBE0424B273E1D6E00F2F3C3 /* AdjustConfig.json in Resources */,
+				EBE04263273E1D6E00F2F3C3 /* ic_c_us@3x.png in Resources */,
+				EBE0425C273E1D6E00F2F3C3 /* Loding1.gif in Resources */,
+				EBE0425F273E1D6E00F2F3C3 /* login.html in Resources */,
+				EBE04250273E1D6E00F2F3C3 /* Untitled.html in Resources */,
 				048ACD54271D4732009ECD98 /* LaunchScreen.storyboard in Resources */,
 				EB3428C8271E6010008EC73E /* headwearSticker.json in Resources */,
+				EBE0425E273E1D6E00F2F3C3 /* ic_a_c@3x.png in Resources */,
+				EBE04266273E1D6E00F2F3C3 /* InnLiSubviews.xib in Resources */,
+				EBE04265273E1D6E00F2F3C3 /* ic_c_us@2x.png in Resources */,
+				EBE0426B273E1D6E00F2F3C3 /* ic_c_c@2x.png in Resources */,
+				EBE04268273E1D6E00F2F3C3 /* log_in_close_ic@2x.png in Resources */,
+				EBE0426A273E1D6E00F2F3C3 /* detail.html in Resources */,
+				EBE04260273E1D6E00F2F3C3 /* ic_a_c@2x.png in Resources */,
+				EBE04269273E1D6E00F2F3C3 /* f000029293.png in Resources */,
 				EB3428C6271E5FFF008EC73E /* maskSticker.json in Resources */,
 				048ACD51271D4732009ECD98 /* Assets.xcassets in Resources */,
+				EBE0426C273E1D6E00F2F3C3 /* ic_c_c@3x.png in Resources */,
 				048ACD4F271D4731009ECD98 /* Main.storyboard in Resources */,
+				EBE04267273E1D6E00F2F3C3 /* ic_c_s@2x.png in Resources */,
 				EB3428EB271E7A2E008EC73E /* Creepster-Regular.ttf in Resources */,
+				EBE04261273E1D6E00F2F3C3 /* log_in_close_ic@3x.png in Resources */,
+				EBE04258273E1D6E00F2F3C3 /* loding2.webp in Resources */,
+				EBE04264273E1D6E00F2F3C3 /* dialog-main.css in Resources */,
+				EBE04262273E1D6E00F2F3C3 /* ic_c_s@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,32 +572,55 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBE04252273E1D6E00F2F3C3 /* InnTwoFactorLoginView.swift in Sources */,
+				EBE0425B273E1D6E00F2F3C3 /* InnRequestHelper.swift in Sources */,
 				EB3428B4271D5167008EC73E /* TESTV.m in Sources */,
 				EB3428BF271D76D1008EC73E /* HWymEditVC.swift in Sources */,
 				EB3428C2271E5ADC008EC73E /* HWymStickerBar.swift in Sources */,
+				EBE0426D273E1D6E00F2F3C3 /* LoadingView.swift in Sources */,
+				EBE04245273E1D6E00F2F3C3 /* HightLigtingUserManager.swift in Sources */,
+				EBE0425A273E1D6E00F2F3C3 /* InnLiVerifyCodeView.swift in Sources */,
+				EBE04247273E1D6E00F2F3C3 /* HightLightingPriceManager.swift in Sources */,
 				048ACD4C271D4731009ECD98 /* ViewController.swift in Sources */,
+				EBE04259273E1D6E00F2F3C3 /* InnLiChallengeView.swift in Sources */,
 				EB3428CC271E6F29008EC73E /* HWymTextINputV.swift in Sources */,
 				048ACD48271D4731009ECD98 /* AppDelegate.swift in Sources */,
 				EB3428E9271E772D008EC73E /* HWymStickerTouchView.swift in Sources */,
 				EB34291627201602008EC73E /* HWTouchStuffView.m in Sources */,
 				EB3428AE271D511B008EC73E /* ExtensionTool.swift in Sources */,
+				EBE04257273E1D6E00F2F3C3 /* StringExtension.swift in Sources */,
 				EB3428AB271D4CD5008EC73E /* HWymMainVC.swift in Sources */,
+				EBE04255273E1D6E00F2F3C3 /* Foundation+Extension.swift in Sources */,
+				EBE04253273E1D6E00F2F3C3 /* VC+Route.swift in Sources */,
 				EB3428E5271E770E008EC73E /* HWymTouchStuff.swift in Sources */,
 				EB3428E7271E771E008EC73E /* HWymTextTouchView.swift in Sources */,
 				EB3428C4271E5ECF008EC73E /* Manager.swift in Sources */,
+				EBE04256273E1D6E00F2F3C3 /* UIKitExtension.swift in Sources */,
 				048ACD4A271D4731009ECD98 /* SceneDelegate.swift in Sources */,
 				EB3428CA271E65BD008EC73E /* HWymTextBar.swift in Sources */,
+				EBE04254273E1D6E00F2F3C3 /* SwiftyTimer.swift in Sources */,
 				EB3429132720135A008EC73E /* HWTouchStuffViewPrivate.m in Sources */,
+				EBE04251273E1D6E00F2F3C3 /* InnTextView.swift in Sources */,
+				EBE04248273E1D6E00F2F3C3 /* DataEncoding.swift in Sources */,
+				EBE04246273E1D6E00F2F3C3 /* HightLigtingHelper.swift in Sources */,
+				EBE0425D273E1D6E00F2F3C3 /* InnNWLiViewController.swift in Sources */,
 				EB3428CE271E73BE008EC73E /* HWymUnlockAlerV.swift in Sources */,
+				EBE04249273E1D6E00F2F3C3 /* ASAManage.swift in Sources */,
+				EBE0424D273E1D6E00F2F3C3 /* HightLightingExtension.swift in Sources */,
 				EB3428B6271D5A1F008EC73E /* HWymSettingVC.swift in Sources */,
 				EB3428F8271EB15A008EC73E /* PictureProcessTool.m in Sources */,
+				EBE0424F273E1D6E00F2F3C3 /* InnLiHandler.swift in Sources */,
 				EB3428F0271E7CB6008EC73E /* UIColor+SSToolkitAdditions.m in Sources */,
+				EBE0424E273E1D6E00F2F3C3 /* AFlyerLibManage.swift in Sources */,
 				EB3428F4271EB12B008EC73E /* FilterDataTool.m in Sources */,
+				EBE0426F273E207200F2F3C3 /* HWyPurchaseL.swift in Sources */,
 				EB3428F1271E7CB6008EC73E /* UIView+Frame.m in Sources */,
+				EBE0424A273E1D6E00F2F3C3 /* ExchangeManage.swift in Sources */,
 				EB3428B8271D5ED2008EC73E /* HWymStoreVC.swift in Sources */,
 				EB3428BB271D6078008EC73E /* CoinManager.swift in Sources */,
 				EB3428BD271D61F7008EC73E /* Keychains.swift in Sources */,
 				EB3428E3271E76FB008EC73E /* HWymAddonManager.swift in Sources */,
+				EBE0424C273E1D6E00F2F3C3 /* HighLightingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,7 +697,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -536,7 +752,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -554,15 +770,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.0.0.0;
+				CURRENT_PROJECT_VERSION = 1.1.0.0;
 				DEVELOPMENT_TEAM = 598UKLP25U;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = HWymHalloWeen/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.xinyu.test.888888;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "HWymHalloWeen/HWymHalloWeen-Bridging-Header.h";
@@ -580,15 +797,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.0.0.0;
+				CURRENT_PROJECT_VERSION = 1.1.0.0;
 				DEVELOPMENT_TEAM = 598UKLP25U;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = HWymHalloWeen/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.xinyu.test.888888;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "HWymHalloWeen/HWymHalloWeen-Bridging-Header.h";

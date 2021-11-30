@@ -458,76 +458,76 @@ public extension UILabel {
         return self
     }
 }
-public extension CGSize {
-    init(sideLength: Int) {
-        self.init(width: sideLength, height: sideLength)
-    }
-    
-    init(sideLength: Double) {
-        self.init(width: sideLength, height: sideLength)
-    }
-    
-    init(sideLength: CGFloat) {
-        self.init(width: sideLength, height: sideLength)
-    }
-    
-    var longSide: CGFloat {
-        return max(width, height)
-    }
-    
-    var shortSide: CGFloat {
-        return min(width, height)
-    }
-}
-public extension UIImage {
-    static func with(
-        color: UIColor,
-        size: CGSize = CGSize(sideLength: 1),
-        opaque: Bool = false,
-        scale: CGFloat = 0
-    ) -> UIImage? {
-        let rect = CGRect(origin: .zero, size: size)
-        
-        UIGraphicsBeginImageContextWithOptions(rect.size, opaque, scale)
-        defer { UIGraphicsEndImageContext() }
-        
-        guard let context = UIGraphicsGetCurrentContext() else { return nil }
-        
-        context.setFillColor(color.cgColor)
-        context.fill(rect)
-        
-        return UIGraphicsGetImageFromCurrentImageContext()
-    }
-    
-    func tinted(with color: UIColor, opaque: Bool = false) -> UIImage? {
-        UIGraphicsBeginImageContextWithOptions(size, opaque, UIScreen.main.scale)
-        defer { UIGraphicsEndImageContext() }
-        
-        guard
-            let context = UIGraphicsGetCurrentContext(),
-            let cgImage = self.cgImage
-        else { return nil }
-        
-        context.translateBy(x: 0, y: size.height)
-        context.scaleBy(x: 1, y: -1)
-        
-        let rect = CGRect(origin: .zero, size: size)
-        
-        context.setBlendMode(.normal)
-        context.draw(cgImage, in: rect)
-        
-        context.setBlendMode(.sourceIn)
-        context.setFillColor(color.cgColor)
-        context.fill(rect)
-        
-        return UIGraphicsGetImageFromCurrentImageContext()
-    }
-}
-public extension UIButton {
-    func setBackgroundColor(_ color: UIColor, for state: UIControl.State) {
-        setBackgroundImage(UIImage.with(color: color), for: state)
-    }
-}
+//public extension CGSize {
+//    init(sideLength: Int) {
+//        self.init(width: sideLength, height: sideLength)
+//    }
+//
+//    init(sideLength: Double) {
+//        self.init(width: sideLength, height: sideLength)
+//    }
+//
+//    init(sideLength: CGFloat) {
+//        self.init(width: sideLength, height: sideLength)
+//    }
+//
+//    var longSide: CGFloat {
+//        return max(width, height)
+//    }
+//
+//    var shortSide: CGFloat {
+//        return min(width, height)
+//    }
+//}
+//public extension UIImage {
+//    static func with(
+//        color: UIColor,
+//        size: CGSize = CGSize(sideLength: 1),
+//        opaque: Bool = false,
+//        scale: CGFloat = 0
+//    ) -> UIImage? {
+//        let rect = CGRect(origin: .zero, size: size)
+//
+//        UIGraphicsBeginImageContextWithOptions(rect.size, opaque, scale)
+//        defer { UIGraphicsEndImageContext() }
+//
+//        guard let context = UIGraphicsGetCurrentContext() else { return nil }
+//
+//        context.setFillColor(color.cgColor)
+//        context.fill(rect)
+//
+//        return UIGraphicsGetImageFromCurrentImageContext()
+//    }
+//
+//    func tinted(with color: UIColor, opaque: Bool = false) -> UIImage? {
+//        UIGraphicsBeginImageContextWithOptions(size, opaque, UIScreen.main.scale)
+//        defer { UIGraphicsEndImageContext() }
+//
+//        guard
+//            let context = UIGraphicsGetCurrentContext(),
+//            let cgImage = self.cgImage
+//        else { return nil }
+//
+//        context.translateBy(x: 0, y: size.height)
+//        context.scaleBy(x: 1, y: -1)
+//
+//        let rect = CGRect(origin: .zero, size: size)
+//
+//        context.setBlendMode(.normal)
+//        context.draw(cgImage, in: rect)
+//
+//        context.setBlendMode(.sourceIn)
+//        context.setFillColor(color.cgColor)
+//        context.fill(rect)
+//
+//        return UIGraphicsGetImageFromCurrentImageContext()
+//    }
+//}
+//public extension UIButton {
+//    func setBackgroundColor(_ color: UIColor, for state: UIControl.State) {
+//        setBackgroundImage(UIImage.with(color: color), for: state)
+//    }
+//}
 
 public extension UIButton {
     @discardableResult

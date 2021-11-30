@@ -18,6 +18,7 @@ class StoreItem {
     var iapId: String = ""
     var coin: Int  = 0
     var price: String = ""
+    var localPrice: String?
     init(id: Int, iapId: String, coin: Int, price: String) {
         self.id = id
         self.iapId = iapId
@@ -69,14 +70,14 @@ class HWymCoinManager: NSObject {
         
         // iap items list
         
-        let iapItem0 = StoreItem.init(id: 0, iapId: "com.famousup.halweentor.listone", coin: 100, price: "$1.99")
-        let iapItem1 = StoreItem.init(id: 1, iapId: "com.famousup.halweentor.listtwo", coin: 200, price: "$2.99")
-        let iapItem2 = StoreItem.init(id: 2, iapId: "com.famousup.halweentor.listthree", coin: 500, price: "$4.99")
-        let iapItem3 = StoreItem.init(id: 3, iapId: "com.famousup.halweentor.listfour", coin: 1000, price: "$5.99")
-        let iapItem4 = StoreItem.init(id: 4, iapId: "com.famousup.halweentor.listfive", coin: 2000, price: "$6.99")
-        let iapItem5 = StoreItem.init(id: 5, iapId: "com.famousup.halweentor.listsix", coin: 3000, price: "$7.99")
-        let iapItem6 = StoreItem.init(id: 6, iapId: "com.famousup.halweentor.listseven", coin: 4000, price: "$8.99")
-        let iapItem7 = StoreItem.init(id: 7, iapId: "com.famousup.halweentor.listeight", coin: 5000, price: "$9.99")
+        let iapItem0 = StoreItem.init(id: 0, iapId: "com.famousup.halweentor.listone", coin: 100, price: "1.99")
+        let iapItem1 = StoreItem.init(id: 1, iapId: "com.famousup.halweentor.listtwo", coin: 200, price: "2.99")
+        let iapItem2 = StoreItem.init(id: 2, iapId: "com.famousup.halweentor.listthree", coin: 500, price: "4.99")
+        let iapItem3 = StoreItem.init(id: 3, iapId: "com.famousup.halweentor.listfour", coin: 1000, price: "5.99")
+        let iapItem4 = StoreItem.init(id: 4, iapId: "com.famousup.halweentor.listfive", coin: 2000, price: "6.99")
+        let iapItem5 = StoreItem.init(id: 5, iapId: "com.famousup.halweentor.listsix", coin: 3000, price: "7.99")
+        let iapItem6 = StoreItem.init(id: 6, iapId: "com.famousup.halweentor.listseven", coin: 4000, price: "8.99")
+        let iapItem7 = StoreItem.init(id: 7, iapId: "com.famousup.halweentor.listeight", coin: 5000, price: "9.99")
         
         
         coinIpaItemList = [iapItem0, iapItem1, iapItem2, iapItem3, iapItem4, iapItem5, iapItem6, iapItem7]
@@ -106,7 +107,7 @@ class HWymCoinManager: NSObject {
         if let localizedPriceDict = UserDefaults.standard.object(forKey: k_localizedPriceList) as?  [String: String] {
             for item in self.coinIpaItemList {
                 if let price = localizedPriceDict[item.iapId] {
-                    item.price = price
+                    item.localPrice = price
                 }
             }
         }
@@ -123,7 +124,7 @@ class HWymCoinManager: NSObject {
             for (index, item) in self.coinIpaItemList.enumerated() {
                 let model = priceList.filter { $0.productIdentifier == item.iapId }.first
                 if let price = model?.localizedPrice {
-                    self.coinIpaItemList[index].price = price
+                    self.coinIpaItemList[index].localPrice = price
                     localizedPriceList[item.iapId] = price
                 }
             }

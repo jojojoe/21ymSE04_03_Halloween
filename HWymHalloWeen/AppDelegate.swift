@@ -27,25 +27,30 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        NotificationCenter.default.addObserver(self, selector: #selector(applicDidBecomeActiveNotifi(_:)), name: UIApplication.didBecomeActiveNotification, object: nil)
+//        NotificationCenter.default.addObserver(self, selector: #selector(applicDidBecomeActiveNotifi(_:)), name: UIApplication.didBecomeActiveNotification, object: nil)
+//        registerNotifications(application)
+    
+        HightLigtingHelper.default.initSwiftStoryKit()
+        NotificationCenter.default.post(name: .didFinishLaunching,
+                                        object: [nil])
         registerNotifications(application)
         
         
         return true
     }
-    @objc func applicDidBecomeActiveNotifi(_ notifi: Notification) {
-        // Start the SDK (start the IDFA timeout set above, for iOS 14 or later)
-        trackeringAuthor()
-    }
-    func trackeringAuthor() {
-       
-        if #available(iOS 14, *) {
-            ATTrackingManager.requestTrackingAuthorization(completionHandler: {[weak self] status in
-                guard let `self` = self else {return}
-                
-            })
-        }
-    }
+//    @objc func applicDidBecomeActiveNotifi(_ notifi: Notification) {
+//        // Start the SDK (start the IDFA timeout set above, for iOS 14 or later)
+//        trackeringAuthor()
+//    }
+//    func trackeringAuthor() {
+//
+//        if #available(iOS 14, *) {
+//            ATTrackingManager.requestTrackingAuthorization(completionHandler: {[weak self] status in
+//                guard let `self` = self else {return}
+//
+//            })
+//        }
+//    }
     
     
 

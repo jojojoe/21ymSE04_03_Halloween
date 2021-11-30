@@ -120,8 +120,12 @@ extension HWymStoreVC: UICollectionViewDataSource {
         let cell = collectionView.dequeueReusableCell(withClass: HWymStoreCell.self, for: indexPath)
         let item = HWymCoinManager.default.coinIpaItemList[indexPath.item]
         cell.coinCountLabel.text = "x \(item.coin)"
-        cell.priceLabel.text = item.price
         
+        if let localPrice = item.localPrice {
+            cell.priceLabel.text = item.localPrice
+        } else {
+            cell.priceLabel.text = "$\(item.price)"
+        }
         return cell
     }
     
@@ -177,7 +181,8 @@ extension HWymStoreVC: UICollectionViewDelegate {
     }
     
     func selectCoinItem(item: StoreItem) {
-        HWymCoinManager.default.purchaseIapId(item: item) { (success, errorString) in
+        //
+        PurchaseManagerLink.default.purchaseIapId(item: item) { (success, errorString) in
             
             if success {
                 ZKProgressHUD.showSuccess("Purchase successful.")
